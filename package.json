@@ -1,0 +1,93 @@
+{
+  "name": "nlauth",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.9.3",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.56",
+    "@material-ui/pickers": "^3.2.10",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^13.0.0",
+    "@testing-library/user-event": "^13.2.1",
+    "@types/jest": "^27.0.1",
+    "@types/node": "^16.7.13",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@u-wave/react-vimeo": "^0.9.1",
+    "@unform/core": "^2.1.6",
+    "@unform/web": "^2.1.6",
+    "@vercel/analytics": "^1.2.2",
+    "axios": "^0.20.0",
+    "browser-image-compression": "^2.0.0",
+    "cpf-cnpj-validator": "^1.0.3",
+    "framer-motion": "^2.9.4",
+    "html-react-parser": "^4.2.0",
+    "js-cookie": "^3.0.1",
+    "keen-slider": "^6.7.0",
+    "polished": "^4.2.2",
+    "rc-slider": "^10.0.0",
+    "react": "^18.1.0",
+    "react-awesome-slider": "^4.1.0",
+    "react-credit-cards": "^0.8.3",
+    "react-dom": "^18.1.0",
+    "react-icons": "^4.3.1",
+    "react-images-upload": "^1.2.8",
+    "react-images-uploading": "^3.1.6",
+    "react-player": "^2.10.0",
+    "react-qr-code": "^2.0.7",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "5.0.1",
+    "react-select": "^5.8.0",
+    "react-sidebar": "^3.0.2",
+    "react-spring": "^8.0.27",
+    "react-super-responsive-table": "^5.2.1",
+    "react-to-print": "^2.10.3",
+    "react-toastify": "^9.0.1",
+    "remask": "^0.1.0-alpha.5",
+    "styled-components": "^5.3.5",
+    "typescript": "^4.4.2",
+    "uuid": "^8.3.2",
+    "vanilla-masker": "^1.2.0",
+    "web-vitals": "^2.1.0",
+    "yup": "^0.29.3"
+  },
+  "scripts": {
+    "dev": "react-scripts -r tsconfig-paths/register start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "start": "cross-env REACT_APP_API_URL=https://hdinsfdwwa.execute-api.sa-east-1.amazonaws.com/prod react-scripts -r tsconfig-paths/register start"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/js-cookie": "^3.0.2",
+    "@types/react-credit-cards": "^0.8.1",
+    "@types/react-router-dom": "^5.1.6",
+    "@types/react-sidebar": "^3.0.2",
+    "@types/styled-components": "^5.1.25",
+    "@types/styled-jsx": "^3.4.4",
+    "@types/testing-library__jest-dom": "^6.0.0",
+    "@types/uuid": "^8.3.4",
+    "@types/vanilla-masker": "^1.2.1",
+    "@types/vimeo__player": "^2.18.3",
+    "@types/yup": "^0.29.8"
+  }
+}
